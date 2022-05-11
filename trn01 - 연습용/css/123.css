@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_slider figure {
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.container .slick-dots button {display: none;}
+
+.container .slick-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container .slick-dots li{
+    margin: 0 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #369;
+}
