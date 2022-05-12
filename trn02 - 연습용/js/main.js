@@ -58,5 +58,14 @@ $('.practice .menu>li').on('click', function(){
     $('.practice .content>li').eq(m_in).addClass('on').siblings().removeClass('on');
 })
 
+
+
+$('.ham').on('click', function(){
+    $(this).toggleClass('is-active');
+    $('.gnb nav').toggleClass('on');
+})
+
+
+
 ///////////////////////////////////
 });
